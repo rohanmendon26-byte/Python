@@ -6,10 +6,9 @@ def sinplot(n=10):
     x=np.linspace(0,14,100)
     for i in range(10):
         plt.plot(x,np.sin(x+i*.5)*(n+2-i))
-
 sns.set_theme()
-sns.set_context("talk")
-sns.set_theme("notebook",font_scale=1.5,rc={"lines.linewidth":2.5})
+# sns.set_context("talk")
+sns.set_context("notebook",font_scale=1.5,rc={"lines.linewidth":2.5})
 sinplot()
-print("seaborn plots with aesthetic functions")
+plt.title("seaborn plots with aesthetic funtions")
 plt.show()

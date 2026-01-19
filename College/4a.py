@@ -4,5 +4,5 @@ values=[55,48,25,68,90]
 plt.bar(categories,values,color="skyblue")
 plt.xlabel("Overs")
 plt.ylabel("Runs")
-plt.title("Runs scored in odi match")
+plt.title("Runs Scored in an ODI match")
 plt.show()
